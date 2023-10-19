@@ -1,0 +1,59 @@
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-top: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.input__wraper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.form__label {
+    width: 80px;
+
+}
+
+.form__select {
+    width: 200px;
+    height: 25px;
+}
+
+.form__input {
+    width: 200px;
+    box-sizing: border-box;
+    height: 25px;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+}
+
+.form__error {
+    color: red
+}

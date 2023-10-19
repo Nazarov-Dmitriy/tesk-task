@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Задание 1</h1>
+        <form class="form">
+            <div class="input__wraper">
+                <label class="form__label">Город</label>
+                <select class="form__select">
+                    <option value="" selected>Выберите регион</option>
+                </select>
+            </div>
+
+            <div class="input__wraper">
+                <label class="form__label">Цех</label>
+                <select class="form__select">
+                    <option value="" selected>Выберите цех</option>
+                </select>
+            </div>
+
+            <div class="input__wraper">
+                <label class="form__label" for="city">Сотрудник</label>
+                <select class="form__select" id="city">
+                    <option value="" selected>Выберите cотрудник</option>
+                </select>
+            </div>
+
+            <div class="input__wraper">
+                <label class="form__label" for="brigade">Бригада</label>
+                <select class="form__select" id="brigade">
+                    <option value="" selected>Выберите бригаду</option>
+                    <option value="Бригада 1">Бригада 1</option>
+                    <option value="Бригада 2">Бригада 2</option>
+                </select>
+            </div>
+            <div class="btns">
+                <button class="btn btn__submit">Отправить форму</button>
+                <button class="btn btn__reset">Сбросить форму</button>
+            </div>
+
+            <p class="form__success"></p>
+            <p class="form__error"></p>
+        </form>
+    </div>
+
+
+
+</body>
+<script type="module" src="script.js"></script>
+
+</html>
